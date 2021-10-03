@@ -23,32 +23,42 @@
 <body>
   <!-- Start Header -->
     <header>
-        <div class="container-fluid">
+        <div class="container-fluid header">
             <div class="row">
-                <div class="col-lg-2 col-sm-3 text-center">
-                    <img src="vender/img/logo/PCCOE_LOGO_b.jpg" style="width: 125px; height: 100px" /><br>
-                    <div class="extern-btn">
-                      <a href="http://www.pccoepune.com/" class="text-decoration-none">
-                        <i class="fas fa-home"></i> PCCOE
-                      </a>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-2 col-sm-3 text-center d-flex justify-content-around align-items-center">
+                    <div>
+                      <img src="vender/img/logo/PCCOE_LOGO_b.jpg" style="width: 150px; height: 125px;" /><br>
+                      <div class="extern-btn">
+                        <a href="http://www.pccoepune.com/" class="text-decoration-none">
+                          <i class="fas fa-home"></i> PCCOE
+                        </a>
+                      </div>
                     </div>
                 </div>
-                <div class="col-lg-8 col-sm-9">
+                <div class="col-lg-6 col-sm-9">
                     <div class="text-center">
-                        <h5 class="mt-3">PCET PIMPRI CHINCHWAD COLLEGE OF ENGINEERING</h5>
+                        <p class="p-0 m-0 mt-3 pcet-name">PIMPRI CHINCHWAD EDUCATION TRUST</p>
                         <div class="clg-name">
-                            <h3>DEPARTMENT OF MECHANICAL ENGINEERING</h3>
+                            <h4 class="p-0 m-0">PIMPRI CHINCHWAD COLLEGE OF ENGINEERING</h4>
                         </div>
-                        <!-- <p class="m-0">
-                            <b>NBA</b> Accredited | <b>NAAC</b> Accredited with '<b>A</b>' | An <b>Atutonomous Institute </b><br />
-                            <b>ISO 9001: 2015</b> Certified | Permanetly Affilated to
-                            <b>SPPU</b>, Pune
-                        </p> -->
+                        <p class="m-0 p-1 description text-secondary">
+                          <b>NAAC</b> Accreditation With "<b>A Grade</b>" An | <b>Autonomous</b> Institute | <b>AICTE</b> Approved |<b>ISO 9001: 2015</b> Certified | Permanently Affiliated to  <b>SPPU, Pune </b>
+                        </p>
+                         <h4 class="dept-name mb-3 mt-3">Department Of Mechanical Engineering</h4>
                     </div>
                 </div>
-                <div class="col-lg-2 text-center d-none d-lg-block">
-                    <a href="http://pcet.org.in/"><img src="vender/img/logo/logo.png" style="width: 125px; height: 100px" /></a>
+                <div class="col-lg-2 text-center d-flex justify-content-around align-items-center">
+                    <div>
+                      <a href="http://pcet.org.in/"><img src="vender/img/logo/logo.png" style="width: 150px; height: 125px;" /></a>
+                      <div class="extern-btn invisible">
+                        <a href="http://www.pccoepune.com/" class="text-decoration-none">
+                          <i class="fas fa-home"></i> PCCOE
+                        </a>
+                      </div>
+                    </div>
                 </div>
+                <div class="col-lg-1"></div>
             </div>
         </div>
     </header>
@@ -115,11 +125,11 @@
                 </a>
                 <ul class="sub-menu">
                     <li><a href="research/sig.html">Research Area Sigs</a></li>
-                    <li><a href="">Publication</a></li>
+                    <li><a href="research/publication.html">Publication</a></li>
                     <li><a href="research/copyright.html">Intellectual Property Rights</a></li>
                     <li><a href="research/research funding.html">Research Funding </a></li>
-                    <li><a href="">Consultancy/sponsored Projects</a></li>
-                    <li><a href="">Student Achivements</a></li>
+                    <li><a href="research/cs_projects">Consultancy/sponsored Projects</a></li>
+                    <li><a href="research/student_achivements.html">Student Achivements</a></li>
                 </ul>
             </li>
 
@@ -130,11 +140,11 @@
               <input type="checkbox" id="sm50">
               </a>
               <ul class="sub-menu">
-                  <li><a href="">Major Recruiters</a></li>
-                  <li><a href="">Placement</a></li>
-                  <li><a href="">Internship</a></li>
-                  <li><a href="">Industrial Visit & Training Program</a></li>
-                  <li><a href="">MOU's</a></li>
+                  <li><a href="placement/recruiter.html">Major Recruiters</a></li>
+                  <li><a href="placement/placement.html">Placement</a></li>
+                  <li><a href="placement/internship.html">Internship</a></li>
+                  <li><a href="placement/training.html">Industrial Visit & Training Program</a></li>
+                  <li><a href="placement/mou.html">MOU's</a></li>
               </ul>
             </li>
             <li class="b-left"><a href="laboratories/public_html/index.html">Laboratories</a></li>
@@ -145,6 +155,7 @@
                 <input type="checkbox" id="sm9">
                 </a>
                 <ul class="sub-menu">
+                    <li><a href="clubs/mesa.html">Team MESA</a></li>
                     <li><a href="clubs/ambush.html">Team Ambush</a></li>
                     <li><a href="clubs/redbaron.html">Team Red Baron</a></li>
                     <li><a href="clubs/kratos.html">Team Kratos Racing</a></li>
@@ -155,7 +166,7 @@
                     <li><a href="clubs/sport.html">Sports</a></li>
                 </ul>
             </li>
-            <li class="b-left b-right"><a href="contact_us/contact.html">Contact us</a></li>
+            <li class="b-left b-right"><a href="contact_us/contact2.html">Contact us</a></li>
         </ul>
     </nav>
 </div>
@@ -165,10 +176,12 @@
     <div class="marquee-section">
         <div class="running-text">
             <span class="static-head">SPOTLIGHT</span>
-            <marquee scrollamount="4" class="p-1">
+            <marquee scrollamount="4" class="p-1" onmouseover="this.stop();" onmouseout="this.start();">
+              <a class="text-decoration-none text-dark" target="_blank" href="vender/files/department_boucher/1623508314920_samvaad Vol 1, Issue 3.pdf">
                 <span class="marquee-text"> India Today Engineering Survey 2021 : PCCoE ranked 76th in INDIA
                     among top 200 Private Engineering Colleges in India Today Engineering
                     Survey 2021</span>
+              </a>
             </marquee>
         </div>
     </div>
@@ -224,9 +237,6 @@
             <a href="student_corner/results.html">
               <li>Results</li>
             </a>
-            <!-- <a href="">
-                            <li>Result Analysis</li>       ?
-                        </a> -->
             <a href="student_corner/university_rank_holder.html">
               <li>University Rank Holders</li>
             </a>
@@ -236,15 +246,28 @@
             <a href="student_corner/download.html">
               <li>Downloads</li>
             </a>
-            <!-- <a href="">
-              <li>Placement</li>
-            </a> -->
-            <a href="student_corner/departmental_act_mesa.html">
-              <li>Departmental Act. (Mesa)</li>
-            </a>
             <a href="student_corner/department_boucher.html">
               <li>Department Boucher</li>
             </a>
+          </ul>
+        </div>
+
+
+
+        <div class="implinks-section bg-light">
+          <h5 class="section-head">&nbsp; <i class="fas fa-angle-double-right"></i> Important Links</h5>
+          <ul class="section-list">
+            <marquee direction="up" height="235px;" scrollamount="4" onmouseover="this.stop();" onmouseout="this.start();">
+            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfUpU1gG7-Me9S2oE-cSlcfvMqGAwCu083sfB5RvC-5aTSWMg/viewform?c=0&w=1">
+              <li>Exit Survey Form Link</li>
+            </a>
+            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScP3GXYqlLqPthL1el4RS1dzMLN4NIjsTThoeqCKTitpEoWJw/viewform?c=0&w=1">
+              <li>Alumni Survey Form Link</li>
+            </a>
+            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeYBeneU3qFJSYTIlCanUoe2PerffwR2-oNlJVGi8iGRTBLhQ/viewform?c=0&w=1">
+              <li>Parent Survey Form Link</li>
+            </a>
+            </marquee>
           </ul>
         </div>
       </div>
@@ -271,32 +294,40 @@
              <h4 class="color-blue head mb-0">Courses</h4>
             <div class="row text-center justify-content-center">
                 <div class="col-lg-6 col-sm-6">
+                  <a class="text-decoration-none text-dark" href="index.html">
                     <div class="item">
                         <img src="vender/img/logo/b-tech.jpg"/><br>
                         <span class="post">B. Tech</span><br>
                         <span class="branch">Mechanical Engineering</span>
                     </div>
+                  </a>
                 </div>
                 <div class="col-lg-6 col-sm-6">
+                  <a class="text-decoration-none text-dark" href="pg/me-design.html">
                     <div class="item">
                         <img src="vender/img/logo/m-tech.jpg"/><br>
                         <span class="post">M.Tech</span><br>
                         <span class="branch">Design Engineering</span>
                     </div>
+                  </a>
                 </div>
                 <div class="col-lg-6 col-sm-6">
+                  <a class="text-decoration-none text-dark" href="pg/me-heatpower.html">
                     <div class="item">
                         <img src="vender/img/logo/m-tech2.png"/><br>
                         <span class="post">M.Tech</span><br>
                         <span class="branch">Heat Power Engineering </span>
                     </div>
+                  </a>
                 </div> 
                 <div class="col-lg-6 col-sm-6">
-                  <div class="item">
-                      <img src="vender/img/logo/phd.jpg"/><br>
-                      <span class="post">Ph.D</span><br>
-                      <span class="branch">Mechanical Engineering</span>
-                  </div>
+                  <a class="text-decoration-none text-dark" href="phd/phd_home.html">
+                    <div class="item">
+                        <img src="vender/img/logo/phd.jpg"/><br>
+                        <span class="post">Ph.D</span><br>
+                        <span class="branch">Mechanical Engineering</span>
+                    </div>
+                </a>
               </div>
             </div>
         </div>
